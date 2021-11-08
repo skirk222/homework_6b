@@ -1,0 +1,76 @@
+.navitems {    
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    right: 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+.footer {
+    position: absolute;
+    list-style-type: none;
+    right: 0px;
+    bottom: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+.nav {
+    position: relative;
+    top: 0;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 24 px;
+}
+
+
+
+.top-left {
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.top-right {
+    position: static;
+    float: right;
+    display: inline;
+    padding-right: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.footeritems {
+    position: static;
+    display: inline;
+    float: right;
+    padding-right: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.centered {
+    position: fixed;
+    top: 70%;
+    left: 36%;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 54px;
+    transform: translate(-50% -50%);
+    border: 5px solid rgb(248, 73, 102);
+    padding: 10px;
+  }
+
+  /* how to place text over an image around a page: https://www.w3schools.com/howto/howto_css_image_text.asp*/

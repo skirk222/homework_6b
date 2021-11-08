@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="PUI Assignment 6A Cart" />
+        <link href="cart.css" rel="stylesheet" type="text/css">
+        <script src="main.js" defer></script>
+        <script src="cart.js" defer></script> 
+        <title>Cart Assignment 6A</title>
+    </head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="top-left">Muddy Paws</div>
+            <ul class="navitems">
+                <li class="top-right">Register</li>
+                <li class="top-right">Log in</li>
+                <li class="top-right" a href="cart.html" id="cart-label">Cart</li>
+                <li class="top-right" a href="productbrowsing.html">Dogs</li>
+                <li class="top-right">Cats</li>
+            </ul>
+        </div>
+    </header>
+        <h1>Shopping Cart</h1>
+        <div class="big-grid">
+            <div class="cart-header" id="cart-container">
+                <div></div>
+                <h4 id="product-names">Item</h4>
+                <h4 id="item-prices">Price</h4>
+                <h4 id="quantities">Quantity</h4>
+                <h4 id="total-prices">Total Price</h4>
+            </div>
+            <div id="items"></div>
+            <div class="order-summary" id="summary">
+                <h2 id="order-summary-title">Order Summary</h2>
+                    <div class="info" id="pay-info">
+                    <h3 id="subtotal">Subtotal</h3>
+                    <h3 id="$25.00">$25.00</h3>
+                    <h3 id="est-tax">Estimated Tax</h3>
+                    <h3 id="$2.00">$2.00</h3>
+                    <h3 id="shipping">Shipping</h3>
+                    <h3 id="$3.00">$3.00</h3>
+                    <h3 id="total">Total</h3>
+                    <h3 id="$30.00">$30.00</h3>
+                    </div>
+                <h2 id="pay">Pay Now</h2>
+            </div>
+        </div>
+    <ul class="footer">
+        <li class="footeritems">Contact</li>
+        <li class="footeritems">Social</li>
+        <li class="footeritems">160 Mountain Road, Pittsburgh, PA 15120</li>
+    </ul>
+</body>
+

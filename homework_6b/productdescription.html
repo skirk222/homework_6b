@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="PUI Assignment 6B Product Description" />
+        <link href="productdescription.css" rel="stylesheet" type="text/css">
+        <script src="main.js" defer></script>
+        <!-- <script type="text/javascript" src="main.js"></script> -->
+        <!-- <script>
+            function updateColorOrange(){
+                var orangeHarness = document.getElementById("harnesspic");
+                orangeHarness.src = "orangeharness.png";
+
+            }
+            function updateColorBlue(){
+                var blueHarness = document.getElementById("harnesspic");
+                blueHarness.src = "blueharness.png";
+            }
+            function updateColorPurple(){
+                var purpleHarness = document.getElementById("harnesspic");
+                purpleHarness.src = "purpleharness.png";
+            }
+            function updateColorPink(){
+                var pinkHarness = document.getElementById("harnesspic");
+                pinkHarness.src = "harness.png";
+                
+            }
+        </script> -->
+        <!-- https://youtu.be/95bT2U4-uAg javascript reference for changing the source of an image-->
+        <title>Harness Product Details</title>
+    </head>
+
+     <body>
+        <div class="container">
+            <header>
+            <div class="nav">
+                <div class="top-left"a href="index.html">Muddy Paws</div>
+                <ul class="navitems">
+                    <li class="top-right">Register</li>
+                    <li class="top-right">Log in</li>
+                    <li class="top-right"a href="cart.html" id="cart-label">Cart</li>
+                    <li class="top-right" a href="productbrowsing.html">Dogs</li>
+                    <li class="top-right">Cats</li>
+                </ul>
+            </div>
+            </header>
+        
+            <div class="flex-container">
+                <img class="products" id="harnesspic" src= "Fire.png" alt="click a color button!">
+                <div class="flex-items">
+                    <ul>
+                        <h1 class="listed-item" id="product-name" value="dogHarness">Dog Harness</h1>
+                        <h2 class="listed-item" id="product-price" value="$25.00">$25</h2>
+                        <img class="listed-images" id="stars" src="Stars.png">
+                        <br></br>
+                        <li class="listed-item" id="reviews"><u>10 Reviews</u></li>
+                        <li class="listed-item"><p>Get your pet suited up for your next outdoor experience! This comfortable yet durable harness ensures that your pet can stay by your side and move about easily. It comes with adjustable straps and it is machine washable. There is also an option to add on food and water storage accessories which are each sold separately.</p></li>
+                    </ul>
+                    <div class="productOptions">
+                        <!-- <label class="listed-item" id="quantity">Qty: </label> -->
+                            <!-- <td><input type="text" id="itemName" /></td> -->
+                        <!-- <li class="listed-item" id="sizechart"><u>Size Chart</u></li> -->
+                        <label class="listed-item" id="color">Color: </label>
+                        <select name="color" id="color-dropdown" placeholder="Select Color" onChange="colorSelect()">
+                            <option value="Fire Orange">Fire Orange</option>
+                            <option value="Crazyberry">Crazyberry</option>
+                            <option value="Blackberry">Blackberry</option>
+                            <option value="Strawberry">Strawberry</option>
+                        </select>
+
+                        <label class="listed-item" id="size">Size: </label>
+                            <!-- <input type="dropdown" id="sizeSelect" value="Select Size" on click="updateSize()"/> -->
+                            <select name="size" id="size-dropdown" placeholder="Select Size">
+                                <option value="tiny">Tiny</option>
+                                <option value="small">Small</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+
+                            </select>
+
+                    </div>
+                        <button id="add-cart-button" onClick="addtoCart(); updateCartTab()">Add to Cart</button>
+                </div>
+            </div>
+            <ul class="footer">
+                <li class="footeritems">Contact</li>
+                <li class="footeritems">Social</li>
+                <li class="footeritems">160 Mountain Road, Pittsburgh, PA 15120</li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+        function changeImage(a) {
+            document.getElementById("original").src = a.src
+        }
+        // </script>
+        <!-- <div id = "main-img"> -->
+            <!-- <img id="img" src="harness.png"> -->
+        <!-- </div> -->
+        <!-- <div id ="thumb_img"> -->
+            <!-- <img src='PinkPaw.png' onclick='changeImage("orangeharness.png");'> -->
+            <!-- <img src='PurplePaw.png' onclick='changeImage("purpleharness.png");'> -->
+            <!-- <img src='BluePaw.png' onclick='changeImage("blueharness.png");'> -->
+        <!-- </div> -->
+        
+    </body>
+
+</html>
+

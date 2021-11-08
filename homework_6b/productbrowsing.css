@@ -1,0 +1,128 @@
+body { 
+    margin: 0;
+}
+.navitems {    
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    right: 0;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+header {
+    margin: 0px;
+    padding: 70px 0px;
+    background: url(IMG_0514.JPG);
+    background-size: cover;
+}
+.footer {
+    position: fixed;
+    list-style-type: none;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    background: black;
+  }
+
+.footeritems {
+    position: relative;
+    display: inline;
+    float: right;
+    padding-right: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+.nav {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0px;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 24 px;
+}
+
+.top-left {
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.top-right {
+    position: static;
+    float: right;
+    display: inline;
+    padding-right: 24px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.flex-items {
+    position: static;
+    line-height: 30px;
+    top: 100px;
+    height: 100vh;
+    width: auto;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+}
+
+.listed-item{
+    list-style-type: none;
+    text-align: left;
+}
+
+.products {
+    width: 80%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.paws {
+    float: left;
+    padding-left: 30px;
+    width: 150px;
+    height: auto;
+}
+.pinkpaw {
+    float: left;
+    padding-left: 0px;
+    width: 50px;
+    height: auto;
+    border: black solid 1px;
+}
+
+#dogs {
+    position: relative;
+    float: center;
+    top: 75px;
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    color: white;
+}
